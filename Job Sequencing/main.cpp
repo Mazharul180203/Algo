@@ -4,7 +4,7 @@
 using namespace std;
 
 bool comaparesecond(const pair<int,pair<int,int>> &a, const pair<int,pair<int,int>> &b){
-    return a.second.first >  b.second.first;
+    return a.second.second >  b.second.second;
 }
 
 
